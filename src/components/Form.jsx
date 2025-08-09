@@ -21,7 +21,7 @@ const Form = () => {
               <h1 className=" text-center text-4xl pb-2 font-medium">
               GitHub Finder
               </h1>
-          <label className="text-xl font-medium" htmlFor="input">
+          <label className="text-xl font-medium " htmlFor="input">
           Search for the users
           </label>
           <div className="flex gap-3 mt-2 pb-2">
