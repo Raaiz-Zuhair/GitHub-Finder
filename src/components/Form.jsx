@@ -18,10 +18,13 @@ const Form = () => {
     <Card>
         <form onSubmit={handleSubmit}>
         <div className="w-full mx-auto">
+              <h1 className=" text-center text-4xl pb-2 font-medium">
+              GitHub Finder
+              </h1>
           <label className="text-xl font-medium" htmlFor="input">
           Search for the users
           </label>
-          <div className="flex gap-3 mt-2">
+          <div className="flex gap-3 mt-2 pb-2">
           <input
             type="text"
             className="w-full outline-0 border-2 border-gray-500 rounded-lg p-2"

@@ -8,7 +8,7 @@ const UserDetails = () => {
 
   if (loading) {
     return (
-      <div className="flex justify-center items-center h-24">
+      <div className="flex justify-center items-center h-24 mt-10">
         <div className="w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
       </div>
     );
@@ -16,7 +16,7 @@ const UserDetails = () => {
 
   if (user?.message === "Not Found") {
     return (
-      <div className="text-xl font-medium text-red-500">User Not Found</div>
+      <div className="text-xl font-medium text-red-500 mt-10">User Not Found</div>
     );
   }
 
