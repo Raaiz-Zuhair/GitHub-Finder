@@ -17,7 +17,7 @@ const Form = () => {
   return (
     <Card>
         <form onSubmit={handleSubmit}>
-        <div className="w-full mx-auto">
+        <div className="w-full mx-auto p-4 md:p-8">
               <h1 className=" text-center text-4xl pb-2 font-medium">
               GitHub Finder
               </h1>
