@@ -5,6 +5,8 @@ import { useFetch } from "../context/fetchContext";
 const UserDetails = () => {
   const { user, loading } = useFetch();
 
+  console.log(user)
+
   if (loading) {
     return (
       <div className="flex justify-center items-center h-24 mt-10">
@@ -19,6 +21,7 @@ const UserDetails = () => {
         User Not Found
       </div>
     );
+
   }
 
   return (

@@ -12,7 +12,7 @@ export const FetchProvider = ({ children }) => {
   const fetchUser = async (userName) => {
     try {
       setLoading(true)
-      const res = await axios.get(`https://api.github.com/users/${userName}`);
+      const res = await axios.get(`users/${userName}`);
       setUser(res.data);
     } catch (err) {
       if (err.response && err.response.status === 404) {
